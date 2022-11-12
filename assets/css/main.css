@@ -71,6 +71,40 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+.dev-i{
+	display: inline-block;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		font-size: 45px;
+		margin-top: 10px;
+		margin-left: 3px;
+}
+.devv-i{
+	display: inline-block;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+		font-size: 30px;
+		height: 53px;
+		margin-left:10px;
+}
+/* .devicon-flask-original-wordmark.colored{
+		font-size: 30px;
+		height: 60px;
+		margin-top: 10px;
+		transform: rotate(45deg);
+		-webkit-transform: rotate(45deg);
+} */
+
+
+/* All CSS */
+.dev-i-text{
+	font-size: 10px;
+	font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+
+
+
 
 /* Basic */
 
@@ -1775,7 +1809,17 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 3.5em 0;
+		margin: 0 0 1.5em 0;
+		display:flex;
+		justify-content: center;
+		padding-top: 20px;
+		margin-bottom: 0;
+		align-items: center;
+		border-bottom:none
+	}
+	.project-title {
+		border-bottom: none;
+		padding-bottom: -20x;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2053,7 +2097,7 @@ input, select, textarea {
 			border-radius: 3px;
 			border: solid 2px #fff;
 			display: inline-block;
-			font-size: 1.35em;
+			font-size: 1.9em;
 			height: calc(3em + 2px);
 			line-height: 3em;
 			text-align: center;
@@ -2061,21 +2105,21 @@ input, select, textarea {
 		}
 
 			.icon.major:before {
-				-moz-transform: rotate(45deg);
+				/* -moz-transform: rotate(45deg);
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
+				transform: rotate(45deg); */
 				display: inline-block;
 				font-size: 1.5em;
 			}
 
-			@media screen and (max-width: 736px) {
+			/* @media screen and (max-width: 736px) {
 
 				.icon.major {
 					font-size: 1em;
-				}
+				} */
 
-			}
+			/* } */
 
 		.icon.style1 {
 			color: #00ffcc;
@@ -2487,7 +2531,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #f56856;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2541,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #f56856 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2677,7 +2721,7 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 43%;
 		}
 
 			.spotlight .image img {
@@ -2692,7 +2736,7 @@ input, select, textarea {
 			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
-			width: 60%;
+			width: 70%;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2817,7 +2861,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: rgb(54, 70, 114);
 			color: #c8ece9;
 		}
 
@@ -2838,7 +2882,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 code {
-				background: rgba(255, 255, 255, 0.075);
+				background: rgba(54, 42, 42, 0.075);
 			}
 
 			.wrapper.style1 header p {
@@ -3445,7 +3489,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #222424;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3577,7 +3621,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		cursor: default;
-		height: 100vh;
+		height: 80vh;
 		min-height: 35em;
 		overflow: hidden;
 		position: relative;
@@ -3694,7 +3738,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #505393;
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3814,15 +3858,16 @@ input, select, textarea {
 
 	#main > header {
 		padding: 12em 0 10em 0 ;
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(243, 237, 237, 0.5), rgba(249, 244, 244, 0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(249, 244, 244, 0.5), rgba(249, 244, 244, 0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(249, 244, 244, 0.5), rgba(249, 244, 244, 0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(249, 244, 244, 0.5), rgba(249, 244, 244, 0.5)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 10px;
 		text-align: center;
+		
 	}
 
 		#main > header h2 {
@@ -3885,7 +3930,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 2em 0 ;
 		background-color: #1d242a;
 		text-align: center;
 	}
@@ -3956,7 +4001,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#footer {
-				padding: 3em 2em 1em 2em ;
+				padding: 2em 2em 1em 2em ;
 			}
 
 		}
