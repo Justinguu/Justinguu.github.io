@@ -102,7 +102,13 @@ input, select, textarea {
 	font-family: "Open Sans", Helvetica, sans-serif;
 }
 
-
+.profile-pic{
+	height: 10rem;
+	width: 11rem;
+	border-radius: 5rem;
+	margin-bottom: 2rem;
+	object-fit:fill;
+}
 
 
 
@@ -193,7 +199,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 .8em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2861,7 +2867,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: rgb(54, 70, 114);
+			background-color: #54a8d2;
 			color: #c8ece9;
 		}
 
@@ -3698,7 +3704,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 8.5em;
+			height: 10.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -3710,6 +3716,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
+			padding-top: 3rem;
 		}
 
 			#banner .more:after {
@@ -3725,6 +3732,7 @@ input, select, textarea {
 				margin: 0 0 0 -0.75em;
 				position: absolute;
 				width: 1.5em;
+				
 			}
 
 		#banner:after {
