@@ -2867,7 +2867,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #54a8d2;
+			background-color: #ce817a;
 			color: #c8ece9;
 		}
 
@@ -3704,7 +3704,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 6.5em;
+			height: 5.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -3715,7 +3715,7 @@ input, select, textarea {
 			text-align: center;
 			text-transform: uppercase;
 			width: 16em;
-			/* z-index: 1; */
+			z-index: 1;
 			padding-top: 3rem;
 		}
 
