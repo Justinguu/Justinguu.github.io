@@ -103,11 +103,11 @@ input, select, textarea {
 }
 
 .profile-pic{
-	height: 10rem;
-	width: 11rem;
+	height: 13rem;
+	width: 12rem;
 	border-radius: 5rem;
 	margin-bottom: 2rem;
-	object-fit:fill;
+	/* object-fit:fill; */
 }
 
 
@@ -3704,7 +3704,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 10.5em;
+			height: 6.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -3715,7 +3715,7 @@ input, select, textarea {
 			text-align: center;
 			text-transform: uppercase;
 			width: 16em;
-			z-index: 1;
+			/* z-index: 1; */
 			padding-top: 3rem;
 		}
 
@@ -3724,10 +3724,10 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 3.0em;
 				content: '';
 				display: block;
-				height: 1.5em;
+				height: 1rem;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
 				position: absolute;
