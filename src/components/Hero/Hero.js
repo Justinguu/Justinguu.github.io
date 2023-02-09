@@ -10,12 +10,16 @@ const Hero = (props) => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          My Personal Portfolio
+          Justin Gu's <br />
+           Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+        FULL STACK SOFTWARE ENGINEER <br />
+        All my life I have been observant on how to make the world around me simpler or more productive.
+        Software engineering opened that road for me to be able to develop new skills and start making a global impact. 
+        Transforming a hobby into a career has been an incredible experience and i hope to continue growing.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <Button onClick={() => window.location ="https://drive.google.com/file/d/1w4e7aXsnK_SGGCyQG3C4ppeMWSsgSWtM/view?usp=sharing"}>Resume</Button>
       </LeftSection>
     </Section>
   </>
