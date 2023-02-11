@@ -31,12 +31,18 @@ const Header = () =>  (
         </Link>
       </li>        
     </Div2>
+    
       <Div3>
-        <SocialIcons href="https://github.com/Justinguu">
+        <SocialIcons >
+      <a target="_blank href" href='https://github.com/Justinguu'>
           <AiFillGithub size="3rem" />
+        </a>
         </SocialIcons>
-        <SocialIcons href="https://www.linkedin.com/in/jung-gu-b69b98154/">
+
+        <SocialIcons >
+        <a target="_blank href" href='https://www.linkedin.com/in/jung-gu-jgu/'>
           <AiFillLinkedin size="3rem" />
+        </a>
         </SocialIcons>
       </Div3>
     </Container>
