@@ -35,13 +35,13 @@ const Timeline = () => {
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
-  useEffect(() => {
-    const handleResize = () => {
-      scroll(carouselRef.current, 0);
-    }
+  // useEffect(() => {
+  //   const handleResize = () => {
+  //     scroll(carouselRef.current, 0);
+  //   }
 
-    window.addEventListener('resize', handleResize);
-  }, []);
+  //   window.addEventListener('resize', handleResize);
+  // }, []);
 
   return (
     <Section id="about">

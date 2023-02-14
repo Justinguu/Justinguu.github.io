@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
+// import JungResume from "../Links/JungsResume.pdf"
 
 const Hero = (props) => {
   const [isShown, setIsShown] = useState(false);
@@ -36,6 +37,8 @@ const Hero = (props) => {
           ) : (
             <Button onClick={() => setIsShown(!isShown)}>Show Resume</Button>
           )}
+          <a href="https://drive.google.com/file/d/1w4e7aXsnK_SGGCyQG3C4ppeMWSsgSWtM/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><Button>Download Resume</Button></a>
+
         </LeftSection>
       </Section>
     </>
