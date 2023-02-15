@@ -29,7 +29,7 @@ const Footer = () => {
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/jung-gu-b69b98154/">
             <AiFillLinkedin size="3rem" />
-          </SocialIcons>
+          </SocialIcons>  
          
         </SocialContainer>
       </SocialIconsContainer>
