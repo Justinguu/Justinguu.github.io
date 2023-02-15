@@ -29,8 +29,13 @@ const Footer = () => {
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/jung-gu-b69b98154/">
             <AiFillLinkedin size="3rem" />
+<<<<<<< Updated upstream
           </SocialIcons>
          
+=======
+          </SocialIcons>  
+           
+>>>>>>> Stashed changes
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>
