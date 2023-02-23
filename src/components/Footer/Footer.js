@@ -36,5 +36,5 @@ const Footer = () => {
     </FooterWrapper>
   );
 };
-
+ 
 export default Footer;
