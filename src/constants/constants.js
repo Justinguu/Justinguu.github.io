@@ -31,25 +31,12 @@ export const projects = [
     description: "Currently working on a full stack project using MERN stack to help real estate agents manage their own portfolio's on homes.",
     image: '/images/4.png',
     tags: ['TypeScript', 'MongoDB', 'Express', 'NodeJS'],
-    source:'https://github.com/Justinguu/Mern-Stack-Yariga',
+    source:'https://github.com/Justinguu/Mern_Yariga_Project',
     visit: 'Coming Soon',
     id: 3,
   },
-  // {
-  //   title: 'Unichat',
-  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: '/images/4.jpg',
-  //   tags: ['React', 'ChatEngine', 'Firebase'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 3,
-  // },
 ];
 
 export const TimeLineData = [
-  // { year: 2017, text: 'Started my journey', },
-  // { year: 2018, text: 'Worked as a freelance developer', },
-  // { year: 2019, text: 'Founded JavaScript Mastery', },
-  // { year: 2020, text: 'Shared my projects with the world', },
-  // { year: 2021, text: 'Started my own platform', },
+
 ];
