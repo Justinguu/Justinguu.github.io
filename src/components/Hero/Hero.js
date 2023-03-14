@@ -28,7 +28,7 @@ const Hero = (props) => {
               <Button onClick={() => setIsShown(!isShown)}>Hide Resume</Button>
               
               <iframe
-                src="https://drive.google.com/file/d/1w4e7aXsnK_SGGCyQG3C4ppeMWSsgSWtM/preview"
+                src="https://docs.google.com/document/d/1hkPIAd_rksSYaR6xRueLRHM5pteMhrTfxoF8fgnGZ2Y/edit?usp=sharing"
                 width="640"
                 height="480"
                 auto
@@ -37,7 +37,7 @@ const Hero = (props) => {
           ) : (
             <Button onClick={() => setIsShown(!isShown)}>Show Resume</Button>
           )}
-          <a href="https://drive.google.com/file/d/1w4e7aXsnK_SGGCyQG3C4ppeMWSsgSWtM/view?usp=sharing" target="_blank" rel="noopener noreferrer" ><Button>Download Resume</Button></a>
+          <a href="https://docs.google.com/document/d/1hkPIAd_rksSYaR6xRueLRHM5pteMhrTfxoF8fgnGZ2Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer" ><Button>Download Resume</Button></a>
 
         </LeftSection>
       </Section>
