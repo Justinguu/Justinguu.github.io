@@ -6,8 +6,15 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import ReactGA from 'react-ga';
+import React, { useEffect } from 'react';
 
 const Home = () => {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname);
+  }, []);
+
   return (
     <Layout>
       <Section grid>
