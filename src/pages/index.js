@@ -14,7 +14,7 @@ const Home = () => {
   return (
       <>
 <Head>
-<script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.TRACKINGCODE}`}
+<script async src={`https://www.googletagmanager.com/gtag/js?id=G-V4WB28TEJC`}
 />
 
 <script
@@ -22,8 +22,8 @@ const Home = () => {
     __html: `
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
-    gtag('js', newDate());
-    gtag('config', '${process.env.TRACKINGCODE}', {
+    gtag('js', new Date());
+    gtag('config', G-V4WB28TEJC}', {
       page_path: window.location.pathname,
     })
     `
