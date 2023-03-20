@@ -6,16 +6,31 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
-import ReactGA from 'react-ga';
-import React, { useEffect } from 'react';
+
+import Head from 'next/head';
 
 const Home = () => {
 
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname);
-  }, []);
-
   return (
+      <>
+<Head>
+<script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.TRACKINGCODE}`}
+/>
+
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', newDate());
+    gtag('config', '${process.env.TRACKINGCODE}', {
+      page_path: window.location.pathname,
+    })
+    `
+  }}
+/>
+</Head>
+
     <Layout>
       <Section grid>
         <Hero />
@@ -26,7 +41,7 @@ const Home = () => {
       <Timeline />
       <Acomplishments />
     </Layout>
+</>
   );
 };
-
 export default Home;
