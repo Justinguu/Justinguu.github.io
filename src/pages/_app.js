@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
     
    
       <Theme>
-        <GoogleAnalytics measurementId="G-V4WB28TEJC" />
+        <GoogleAnalytics measurementId="G-13TWX3ZTJP" />
         <Component {...pageProps} />
       </Theme>
     </>
