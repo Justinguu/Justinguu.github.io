@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Section, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
-// import JungResume from "../Links/JungsResume.pdf"
+// import JungResume from "../Links/JungsResume.pdf"//
 
 const Hero = (props) => {
   const [isShown, setIsShown] = useState(false);
@@ -41,6 +41,7 @@ const Hero = (props) => {
 
         </LeftSection>
       </Section>
+      
     </>
   );
 };
