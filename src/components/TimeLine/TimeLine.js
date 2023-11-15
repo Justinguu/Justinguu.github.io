@@ -69,7 +69,7 @@ const Timeline = () => {
                     viewBox="0 0 208 6"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    // style={{ marginTop: '13px' }} // Adjust the value as needed
+                    style={{ marginTop: '13px' }} 
                     >
                       
                     <path
