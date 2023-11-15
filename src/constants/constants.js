@@ -40,7 +40,7 @@ export const projects = [
 export const TimeLineData = [
   { year: "June 2022", text: 'Started my journey at App Academy', },
   { year: "Nov 2022", text: 'Graduated from App Academy', },
-  { year: "Dec 2022", text: 'Freelance Software Engineer for YongMen Law P.C', },
-  { year: "May 2023", text: '', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: "Dec 2022", text: 'Freelance Software Engineer at YongMen Law P.C', },
+  { year: "May 2023", text: 'Web Developer Intern at Engaj Media', },
+  { year: "Sep 2023", text: 'Freelance for RemoTask', },
 ];

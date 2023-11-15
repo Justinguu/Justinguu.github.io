@@ -46,7 +46,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+      Hi, my name is Jung Gu, but many call me Justin. I bring technical skills, creative thinking, and a passion for technology to every project I work on.
+      My love for software development drives me to continuously learn and stay up-to-date on the latest industry developments.
+       With a combination of technical proficiency and a hunger for innovation, I am always eager to tackle new challenges and bring great ideas to life.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -63,10 +65,13 @@ const Timeline = () => {
                   {`${item.year}`}
                   <CarouselItemImg
                     width="208"
-                    height="6"
+                    height="7"
                     viewBox="0 0 208 6"
                     fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
+                    xmlns="http://www.w3.org/2000/svg"
+                    // style={{ marginTop: '13px' }} // Adjust the value as needed
+                    >
+                      
                     <path
                       fill-rule="evenodd"
                       clip-rule="evenodd"
