@@ -8,10 +8,12 @@ const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
-  const carouselRef = useRef();
+  const carouselRef = useRef(null);
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: 'smooth' });
+    if (node) { // Check if the node exists before calling scrollTo
+      return node.scrollTo({ left, behavior: 'smooth' });
+    }
   }
 
   const handleClick = (e, i) => {

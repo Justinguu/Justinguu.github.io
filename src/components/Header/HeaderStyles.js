@@ -117,6 +117,7 @@ border-radius: 50px;
   padding: 5px;
 &:hover {
     display:flex;
+    color: white;
     justify-content: center;
     align-items: center;
     background-color: #212d45;
