@@ -38,9 +38,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
+  { year: "June 2022", text: 'Started my journey at App Academy', },
+  { year: "Nov 2022", text: 'Graduated from App Academy', },
+  { year: "Dec 2022", text: 'Freelance Software Engineer for YongMen Law P.C', },
+  { year: "May 2023", text: '', },
   { year: 2021, text: 'Started my own platform', },
 ];
