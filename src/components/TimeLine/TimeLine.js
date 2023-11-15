@@ -4,56 +4,51 @@ import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, 
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
-//
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
 const Timeline = () => {
-  // const [activeItem, setActiveItem] = useState(0);
-  // const carouselRef = useRef();
-  //
+  const [activeItem, setActiveItem] = useState(0);
+  const carouselRef = useRef();
 
-  // const scroll = (node, left) => {
-  //   return node.scrollTo({ left, behavior: 'smooth' });
-  // }
+  const scroll = (node, left) => {
+    return node.scrollTo({ left, behavior: 'smooth' });
+  }
 
-  // const handleClick = (e, i) => {
-  //   e.preventDefault();
+  const handleClick = (e, i) => {
+    e.preventDefault();
 
-  //   if (carouselRef.current) {
-  //     const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
+    if (carouselRef.current) {
+      const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
       
-  //     scroll(carouselRef.current, scrollLeft);
-  //   }
-  // }
+      scroll(carouselRef.current, scrollLeft);
+    }
+  }
 
-  // const handleScroll = () => {
-  //   if (carouselRef.current) {
-  //     const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
+  const handleScroll = () => {
+    if (carouselRef.current) {
+      const index = Math.round((carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) * TimeLineData.length);
 
-  //     setActiveItem(index);
-  //   }
-  // }
+      setActiveItem(index);
+    }
+  }
 
   // snap back to beginning of scroll when window is resized
   // avoids a bug where content is covered up if coming from smaller screen
-  // useEffect(() => {
-  //   const handleResize = () => {
-  //     scroll(carouselRef.current, 0);
-  //   }
+  useEffect(() => {
+    const handleResize = () => {
+      scroll(carouselRef.current, 0);
+    }
 
-  //   window.addEventListener('resize', handleResize);
-  // }, []);
+    window.addEventListener('resize', handleResize);
+  }, []);
 
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      {/* <img src={profilePic} /> */}
       <SectionText>
-      Hi, my name is Jung Gu, but many call me Justin. I bring technical skills, creative thinking, and a passion for technology to every project I work on.
-      My love for software development drives me to continuously learn and stay up-to-date on the latest industry developments.
-       With a combination of technical proficiency and a hunger for innovation, I am always eager to tackle new challenges and bring great ideas to life.
+      The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
       </SectionText>
-      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -102,8 +97,8 @@ const Timeline = () => {
             </CarouselMobileScrollNode>
           ))}
         </>
-      </CarouselContainer> */}
-      {/* <CarouselButtons>
+      </CarouselContainer>
+      <CarouselButtons>
         {TimeLineData.map((item, index) => {
           return (
             <CarouselButton
@@ -116,7 +111,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons> */}
+      </CarouselButtons>
       <SectionDivider />
     </Section>
   );

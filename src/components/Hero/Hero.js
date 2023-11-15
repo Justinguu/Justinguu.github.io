@@ -40,6 +40,7 @@ const Hero = (props) => {
           <a href="https://drive.google.com/file/d/1gaTedEU3qFzY8F1eZK197ETAwbTM3ZpG/preview" target="_blank" rel="noopener noreferrer" ><Button>Download Resume</Button></a>
 
         </LeftSection>
+     
       </Section>
       
     </>
